@@ -1,0 +1,208 @@
+/* Teams Banner */
+
+.teamsBanner {
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.teamsBannerHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8rem 2.4rem 0rem 2.4rem;
+}
+
+.teamsBannerBody {
+    padding: 2.4rem 2.4rem 0 2.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.teamsHeading {
+    width: fit-content;
+    display: flex;
+    background-color: none;
+    align-items: center;
+    column-gap: 0.6rem;
+}
+
+.searchBar .input[type="text"] {
+    border: 0px solid black;
+}
+
+.actionButton {
+    padding: 0.4rem 1.2rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: #40D2BF;
+    font-family: Proxima Nova, sans-serif;
+    color: #FFF;
+    font-weight: bold;
+    white-space: nowrap;
+    align-items: center;
+    display:flex;
+    column-gap: 0.4rem;
+}
+
+
+
+/* Teams Container */
+
+.teamsContainer {
+    display: flex;
+    padding: 2.4rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 2.4rem;
+    background-color: none;
+    overflow: hidden
+}
+
+
+/* Teams Body */
+
+.teamsBody {
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05), 0px 0px 30px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+.teamsBodyContent {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1.6rem;
+    grid-column-gap: 1.6rem;
+    padding: 1.6rem;
+}
+
+.teamsBodyHeader {
+    display: flex;
+    padding: 1.6rem;
+    border-bottom: 1px solid #E4E7EC;
+    justify-content: space-between;
+}
+
+.teamCard {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #E4E7EC;
+    flex-basis: 30%
+}
+
+.teamCardArchived {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    flex-basis: 30%;
+    border: 1px solid #E4E7EC;
+}
+
+.teamImg {
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 10%;
+}
+
+.cardHeader {
+    background-color: none;
+    padding: 0.8rem;
+    display: flex;
+    column-gap: 0.6rem;
+}
+
+.cardHeaderText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.4rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+}
+
+.cardBody {
+    background-color: none;
+    padding: 0;
+
+}
+
+.cardDescription {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding: 0 0.8rem;
+}
+
+.cardDetails {
+    margin-top: 1.2rem;
+    padding: 0.8rem;
+    border-top: 1px solid #E4E7EC;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.4rem;
+    font-weight: bold;
+}
+
+
+/* Teams Activity */
+
+.teamsActivity {
+    background-color: #ffffff;
+    height: fit-content;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05), 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.activityItem {
+    white-space: nowrap;
+}
+
+.avatarImg {
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 100%;
+}
+
+.activityBodyContent {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 1.6rem;
+    grid-column-gap: 1.6rem;
+    padding: 1.6rem;
+}
+
+
+/* Tabs */
+
+.tabsComponent {
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+
+.teamTab {
+    border: none;
+    background-color: #fff !important;
+    width: 6rem;
+    font-family: "Proxima Nova";
+    font-weight: bold !important;
+    font-size: 0.8rem;
+}
+
+.teamTabSelected {
+    border: none;
+    background-color: #fff !important;
+    border-bottom: 0.2rem solid #2995DA;
+    color: #2995DA !important;
+    width: 6rem;
+    height: 2.4rem;
+    font-family: "Proxima Nova";
+    font-weight: bold;
+    font-size: 0.8rem;
+}

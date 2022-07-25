@@ -1,0 +1,159 @@
+.font-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.font-header {
+  font-size: 1.02rem;
+  font-weight: bold;
+}
+
+.font-subheader {
+  font-size: 0.84rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.font-content {
+  font-size: 0.76rem;
+  line-height: 0.8rem;
+  color: #000;
+}
+
+.font-desc {
+  font-size: 0.70rem;
+  line-height: 0.76rem;
+  font-weight: lighter;
+  color: #999999;
+}
+
+
+.font-subheader .bold {
+  font-weight: bold;
+}
+
+
+.wrapper {
+  height:100vh;
+  width:100vw;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  display:flex;
+  flex-direction: row;
+}
+
+
+.body {
+  background-color: none;
+  width: calc(100% - 4rem);
+  display:flex;
+  flex-direction:column;
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.container {
+  background-color: #e5e5e5;
+  flex-grow:1;
+}
+
+
+.sidebar {
+  border-right: 1px solid var(--white);
+  background-color: #042235;
+  min-width: 4rem;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+}
+
+.sidebar-item {
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+  align-items: center;
+  opacity: 0.3;
+  
+}
+
+
+.sidebar-item-selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  background-color: #2995DA;
+}
+
+.headerbar {
+  top: 0px;
+  position: sticky;
+  display:flex;
+  flex-direction: row;
+  min-height: 4rem;
+  background-color: #fff;
+  border: 1px solid #E2E2E2;
+}
+
+.mainheader {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #E2E2E2;
+  padding: 0 2.4rem;
+  color: #999;
+}
+
+.pageheader {
+  display:flex;
+  align-items: center;
+  padding: 0 2.4rem;
+  align-items: center;
+  flex-grow:1;
+  font-weight: normal !important;
+}
+
+.loginheader {
+  display: flex;
+
+  
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.4rem;
+  white-space: nowrap;
+}
+
+.userImg {
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  margin-left: 0.4rem;
+}
+
+
+/* Notification */
+
+.notificationCount{
+  color: #fff;
+  background-color: #2995DA;
+  position:absolute;
+  top: -0.6rem;
+  right: 0;
+  z-index: 1;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.notificationIcon {
+ display: inline-block;
+ position: relative;
+ width: 2rem;
+}

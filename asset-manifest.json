@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/narwhal/static/css/main.aa536c16.css",
+    "main.js": "/narwhal/static/js/main.c5ae65b1.js",
+    "static/js/787.28cb0dcd.chunk.js": "/narwhal/static/js/787.28cb0dcd.chunk.js",
+    "static/media/ProximaNovaFont.otf": "/narwhal/static/media/ProximaNovaFont.7bc9ce404c297c24f210.otf",
+    "static/media/sw-logo-white.svg": "/narwhal/static/media/sw-logo-white.81617a663bc6d28b8e5fff1acbabc01f.svg",
+    "static/media/icon-teams.svg": "/narwhal/static/media/icon-teams.c8ec680400fe9597a5642354b86efc70.svg",
+    "static/media/icon-leads.svg": "/narwhal/static/media/icon-leads.d718c73bf13f18b8f21ec953bfeb8728.svg",
+    "static/media/icon-help.svg": "/narwhal/static/media/icon-help.c0d350d40025c7b0ce668366a79a6ed3.svg",
+    "static/media/icon-campaign.svg": "/narwhal/static/media/icon-campaign.b93266c6ada65b8c20b34b8f91019ad3.svg",
+    "static/media/icon-reports.svg": "/narwhal/static/media/icon-reports.4591bf17aa91df65762482ce6c289223.svg",
+    "index.html": "/narwhal/index.html",
+    "static/media/star-active.svg": "/narwhal/static/media/star-active.72bd5efbf869631f6876d72e9394daec.svg",
+    "static/media/icon-notification.svg": "/narwhal/static/media/icon-notification.2ca3728deab12f6564522d7c3be4b574.svg",
+    "static/media/plus-shape.svg": "/narwhal/static/media/plus-shape.47bd45b56877c002056af13a85933350.svg",
+    "main.aa536c16.css.map": "/narwhal/static/css/main.aa536c16.css.map",
+    "main.c5ae65b1.js.map": "/narwhal/static/js/main.c5ae65b1.js.map",
+    "787.28cb0dcd.chunk.js.map": "/narwhal/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa536c16.css",
+    "static/js/main.c5ae65b1.js"
+  ]
+}

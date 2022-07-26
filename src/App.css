@@ -54,7 +54,7 @@
 }
 
 .container {
-  background-color: red;
+  background-color: none;
   flex-grow:1;
 }
 

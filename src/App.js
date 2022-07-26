@@ -223,7 +223,9 @@ function App() {
   return (<>
     <div className="wrapper">
       <div className="sidebar">
-        <div style={{ display: "flex", flexDirection: "column", flexGrow: 1 }}>{routes.map(({ path, header, icon }) => (<SideBarItem path={path} header={header} icon={icon()} />))}</div>
+        <div className="sidebarTop">
+          {routes.map(({ path, header, icon }) => (<SideBarItem path={path} header={header} icon={icon()} />))}
+        </div>
         <div className="sidebar-item"><HelpIcon /></div>
       </div>
       <div className="body">
@@ -235,7 +237,7 @@ function App() {
               <NotificationIcon />
               <div className="notificationCount font-content">{data.current_user.notifications_count}</div>
             </div>
-            <div style={{ display: "flex", flexDirection: "row", alignItems: "center", padding: "0 0 0 1rem" }}>
+            <div className="userAccount">
               <div className="font-content">Hello, {data.current_user.name}</div>
               <img className="userImg" src={data.current_user.avatar}></img>
             </div>
